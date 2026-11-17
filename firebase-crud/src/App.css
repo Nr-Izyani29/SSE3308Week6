@@ -1,0 +1,35 @@
+body {  
+  font-family: Arial, 
+  sans-serif;  
+  background: #aea7a7;  
+  margin: 0;
+} .container {  
+  max-width: 650px;  
+  margin: 50px auto;  
+  padding: 25px;  
+  background: rgb(69, 65, 65);  
+  border-radius: 10px; 
+} input {  
+  padding: 10px;  
+  margin: 5px; 
+} 
+button {  
+  padding: 10px 15px;  
+  margin: 5px;  
+  cursor: pointer; 
+} 
+.task {  
+  display: flex;  
+  align-items: center;  
+  gap: 8px;  
+  padding: 10px;  
+  margin: 8px 0;  
+  background: #ffffff;  
+  border-radius: 5px; 
+} 
+.task span {  
+  flex: 1; 
+} 
+.completed {  
+  text-decoration: line-through;  
+  color: #ffffff; }
